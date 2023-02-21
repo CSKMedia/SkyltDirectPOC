@@ -10,7 +10,7 @@ import { useModel } from '../ModelContext';
 
 
 const HingeMetal = (props) => {
-  const { nodes, materials } = useGLTF('./models/HingeMetal.glb');
+  const { nodes, /*materials*/ } = useGLTF('./models/HingeMetal.glb');
 
   const model = useModel();
 
